@@ -12,7 +12,7 @@ jobs:
         run: java -version
       - name: run test
         run: mvn test verify
-      - name: check status
+      - name: check status step
         uses: deblockt/cucumber-report-annotations-action@v1.7
         with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
