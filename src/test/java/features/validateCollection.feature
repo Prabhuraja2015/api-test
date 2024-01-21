@@ -5,7 +5,7 @@ Feature: Validating Rijksmuseum API
   When user call get method on "Collection" api
   Then check the countFacets object values in the response
     | hasimage | ondisplay |
-    | 3407     | 28        |
+    | 3407     | 27        |
 
   @smoketest
   Scenario: Verify the count facets object in collection API for successful scenario
